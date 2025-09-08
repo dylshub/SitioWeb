@@ -5,6 +5,9 @@ body {
   text-align: center;
   align-items: center;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 h2 {
@@ -19,7 +22,6 @@ form {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1);
   width: 350px;
-  display: flex;
 }
 
 form label {
@@ -27,9 +29,30 @@ form label {
   color: #34495e;
   margin-bottom: 5px;
   display: block;
+  text-align: left;
+  margin-top: 10px;
 }
 
 form input {
   padding: 10px;
   border: 2px solid #ccc;
+}
+
+form input:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+form button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background: #2ecc71;
 }

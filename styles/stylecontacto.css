@@ -1,0 +1,27 @@
+body{
+    background-image: url(/img/fondo17.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header{
+
+    background-image: url(/img/fondo13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:60px;
+}
+
+article{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    line-height:30px;
+
+    background-image: url(/img/fondo13.jpg);
+      margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}

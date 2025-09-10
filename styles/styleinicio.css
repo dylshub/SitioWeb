@@ -1,18 +1,30 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+background-image: url("/img/fondo4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
 }
 
 header {
-  background: #2c3e50;
-  color: white;
-  padding: 20px;
-  text-align: center;
+
+  Font-family: Bodoni-MT;
+  background-image: url("/img/mariposa.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; 
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 nav {
-  background: #c7b54d;
-  color: white;
+  Font-family:Forte;
+  background: #e7b1ec;
+  color: rgb(68, 0, 62);
   padding: 20px;
   text-align: center;
 }
@@ -26,7 +38,7 @@ nav a {
 main {
   display: flex;
   padding: 20px;
-  background-color: #ecf0f1;
+  background-color: #ccbbcc;
 }
 
 section {
@@ -35,21 +47,26 @@ section {
 }
 
 article {
-  background: white;
+  font-size: 18px;
+  background: rgb(198, 169, 202);
   margin-bottom: 15px;
   padding: 15px;
   border: 1px solid #ddd;
 }
 
 aside {
+  background-image: url("/img/fondo5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   flex: 1;
-  background: #f9f9f9;
+  
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #9905be;
 }
 
 footer {
-  background: #2c3e50;
+  background: #52174d;
   color: white;
   text-align: center;
   padding: 15px;

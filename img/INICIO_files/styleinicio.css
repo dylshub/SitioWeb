@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+
+  
+}
+
+header {
+  Font-family: Bodoni-MT;
+  background: #987599;
+  color: rgb(216, 183, 209);
+  padding: 20px;
+  text-align: center;
+
+}
+
+nav {
+  Font-family:Forte;
+  background: #e7b1ec;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+section {
+  flex: 2;
+  margin-right: 20px;
+}
+
+article {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+aside {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

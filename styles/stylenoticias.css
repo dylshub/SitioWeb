@@ -1,11 +1,23 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+    margin: 0;
+  padding:0;
+  height: 100vh;
+
+ background-image:url(/img/fondo7.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 header {
-  background: #2c3e50;
-  color: white;
+  font-family:Broadway;
+  background-image: url("/img/fondo6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+  color: rgb(14, 26, 34);
   padding: 20px;
   text-align: center;
 }
@@ -49,8 +61,8 @@ article h3:hover {
 }
 
 footer {
-  background: #2c3e50;
-  color: white;
+  background: #7e6b81;
+  color: rgb(220, 196, 223);
   text-align: center;
   padding: 15px;
 }

@@ -1,6 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f6f9;
+  background-image:url(/img/fondo.jpg);
+  background-size:cover;
+ 
+  background-repeat: no-repeat;
 
   text-align: center;
   align-items: center;
@@ -14,12 +17,15 @@ h2 {
 }
 
 form {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1);
-  width: 350px;
+
+
+ 
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  
 }
 
 form label {

@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f6f9;
+  background: #E0F2E9;
 
   text-align: center;
   align-items: center;
@@ -17,7 +17,7 @@ h2 {
 }
 
 form {
-  background: #ffffff;
+  background: #6B8E23;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1);
@@ -53,6 +53,11 @@ form button {
   margin-top: 15px;
 }
 
+button{
+    transition: background-color 0.3s ease;
+}
+
 form button:hover {
   background: #2ecc71;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }

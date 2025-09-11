@@ -1,10 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background-color: #cdbdd6;
+
 }
 
 header {
-  background: #2c3e50;
+  background: #271c33;
   color: white;
   padding: 20px;
   text-align: center;
@@ -13,7 +15,7 @@ header {
 main {
   display: flex;
   padding: 20px;
-  background: #010c17d2;
+  background: #cdbdd6;
   color: white;
   margin: 0;
 }
@@ -49,7 +51,7 @@ article h3:hover {
 }
 
 footer {
-  background: #2c3e50;
+  background: #3a2c50;
   color: white;
   text-align: center;
   padding: 15px;
